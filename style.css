@@ -21,8 +21,9 @@ body{
 
 
 header{
-    background-color: lightblue;
+    background-color: blue;
     padding-top: 20px;
+    color: white;
 }
 
 .navbar{
@@ -32,10 +33,22 @@ header{
     display: flex;
     align-items: center;
     width: 900px;
+    color: white;
+}
+
+ul{
+    color:white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.button{
+    color: black;
+    background-color: white;
+    border-radius: 30px;
 }
 
 #jumbotron{
-    background-color: darkblue;
     width: 100%;
     justify-content: center;
     margin-top: 30px;
@@ -51,9 +64,14 @@ header{
     border: dashed black;
     margin: 0 auto;
     text-align: center;
+    color: white;
+    padding-top: 60px;
     
 }
 
+h1{
+    padding-bottom: 30px;
+}
 .section{
     padding: 50px;
     height: 600px;
@@ -61,44 +79,54 @@ header{
 .white-small{
     background-color: white;
     min-height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .gray-small{
     background-color: lightgrey;
     min-height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .gray-big{
     background-color: lightgray;
-    height: 500px;
+    min-height: 500px;
+    padding-top: 50px;
 }
 
 .large-col{
     flex-basis: 60%;
-    background-color: rgb(66, 178, 248);
-    min-height: 200px;
+    min-height: 300px;
     border: dashed black;
     margin: 0 auto;
 }
 .small-col{
     flex-basis: 40%;
-    background-color: pink;
-    min-height: 200px;
+    min-height: 30px;
     border: dashed black;
     margin: 0 auto;
-
+    color: black;
+    padding-left: 40px;
+    padding-top: 40px;
 }
 .box{
-    height: 400px;
+    min-height: 400px;
     width: 600px;
     margin: 0 auto;
-    background-color: darkgreen;
     border: dashed black;
+    color: black;
+    text-align: center;
+    padding-right: 100px;
+}
+div.immagine{
+    padding-left: 50px;
 }
 
 footer{
     background-color: rgb(39, 38, 38);
-    height: 600px;
+    height: 500px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
