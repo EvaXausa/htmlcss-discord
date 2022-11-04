@@ -1,0 +1,109 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Generics*/
+body{
+    font-family: sans-serif;
+}
+/*Utils*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex{
+    display:flex;
+}
+
+
+header{
+    background-color: lightblue;
+    padding-top: 20px;
+}
+
+.navbar{
+    background-color: goldenrod;
+    height: 40px;
+    border: dashed black;
+    display: flex;
+    align-items: center;
+    width: 900px;
+}
+
+#jumbotron{
+    background-color: darkblue;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#jumbotron-inner{
+    background-color: palevioletred;
+    height: 300px;
+    width: 600px;
+    border: dashed black;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.section{
+    padding: 50px;
+    height: 600px;
+}
+.white-small{
+    background-color: white;
+    min-height: 300px;
+}
+
+.gray-small{
+    background-color: lightgrey;
+    min-height: 300px;
+}
+
+.gray-big{
+    background-color: lightgray;
+    height: 500px;
+}
+
+.large-col{
+    flex-basis: 60%;
+    background-color: rgb(66, 178, 248);
+    min-height: 200px;
+    border: dashed black;
+    margin: 0 auto;
+}
+.small-col{
+    flex-basis: 40%;
+    background-color: pink;
+    min-height: 200px;
+    border: dashed black;
+    margin: 0 auto;
+
+}
+.box{
+    height: 400px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: darkgreen;
+    border: dashed black;
+}
+
+footer{
+    background-color: rgb(39, 38, 38);
+    height: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.foooter-top{
+    margin-top: 500px;
+    border-bottom: 1px purple dashed;
+}
