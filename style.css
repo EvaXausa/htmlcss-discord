@@ -51,7 +51,7 @@ ul{
     background-color: white;
     border: solid white 1px;
     border-radius: 30px;
-    padding: 10px 10px;
+    padding: 10px 20px;
 }
 
 #jumbotron{
@@ -61,6 +61,9 @@ ul{
     margin-bottom: 70px;
     padding-top: 30px;
     padding-bottom: 30px;
+    background-image: url('../../../img/jumbo.png');
+    background-size: cover;
+    background-position: center;
 }
 
 #jumbotron-inner{
@@ -88,8 +91,10 @@ h1{
     background-color: black;
     border: solid 1px black;
     border-radius: 30px;
-    padding: 10px 10px;
+    padding: 10px 20px;
 }
+
+
 .section{
     padding: 50px;
     height: 600px;
@@ -110,7 +115,7 @@ h1{
 
 .gray-big{
     background-color: lightgray;
-    min-height: 500px;
+    height: 900px;
     padding-top: 50px;
 }
 
@@ -148,14 +153,36 @@ div.immagine{
     padding-left: 50px;
 }
 
+h3{
+    padding-bottom: 30px;
+}
+#pulsante-azzurro{
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(109, 118, 199);
+    border: solid 1px rgb(109, 118, 199);
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
 footer{
     background-color: rgb(39, 38, 38);
-    height: 500px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    height: 900px;
+    padding:50px;
+    color: white;
 }
 
 .foooter-top{
-    margin-top: 500px;
-    border-bottom: 1px purple dashed;
+    height: 600px;
+    padding-bottom: 30px;
+    border-bottom: 1px yellow solid;
+    display: flex;
+}
+
+.footer-left{
+    flex-basis: 30%;
+    background-color: blueviolet;
 }
