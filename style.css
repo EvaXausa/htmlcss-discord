@@ -32,7 +32,7 @@ header{
     border: dashed black;
     display: flex;
     align-items: center;
-    width: 900px;
+    width: 1200px;
     color: white;
 }
 
@@ -42,10 +42,16 @@ ul{
     list-style: none;
 }
 
-.button{
+#pulsante{
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
     color: black;
     background-color: white;
+    border: solid white 1px;
     border-radius: 30px;
+    padding: 10px 10px;
 }
 
 #jumbotron{
@@ -58,10 +64,10 @@ ul{
 }
 
 #jumbotron-inner{
-    background-color: palevioletred;
+    /*background color pinck*/
     height: 300px;
-    width: 600px;
-    border: dashed black;
+    width: 700px;
+    /*border: dashed white*/
     margin: 0 auto;
     text-align: center;
     color: white;
@@ -71,6 +77,18 @@ ul{
 
 h1{
     padding-bottom: 30px;
+}
+
+#pulsante-nero{
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: solid 1px black;
+    border-radius: 30px;
+    padding: 10px 10px;
 }
 .section{
     padding: 50px;
@@ -99,23 +117,29 @@ h1{
 .large-col{
     flex-basis: 60%;
     min-height: 300px;
-    border: dashed black;
     margin: 0 auto;
 }
 .small-col{
     flex-basis: 40%;
     min-height: 30px;
-    border: dashed black;
     margin: 0 auto;
     color: black;
-    padding-left: 40px;
+    padding-left: 30px;
     padding-top: 40px;
 }
+
+h2{
+    padding-bottom: 30px;
+}
+
+p{
+    line-height: 20px;
+}
+
 .box{
     min-height: 400px;
-    width: 600px;
+    width: 1200px;
     margin: 0 auto;
-    border: dashed black;
     color: black;
     text-align: center;
     padding-right: 100px;
